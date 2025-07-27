@@ -1,0 +1,7 @@
+array=list(map(int,input("Enter the elements of the array separated by space:").split()))
+array=list(set(array))
+if len(array) < 2:
+  print("Second largest doesn't exist.")
+else:
+  array.sort()  # Sort the array
+  print("Second largest element is:", array[-2])
