@@ -1,0 +1,10 @@
+array = list(map(int, input("Enter elements separated by space: ").split()))
+
+
+non_zeros = [element for element in array if element != 0]
+zeros = [0] * (len(array) - len(non_zeros))
+
+
+result = non_zeros + zeros
+
+print("After moving zeros to end:", result)
