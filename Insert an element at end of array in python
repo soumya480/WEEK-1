@@ -1,4 +1,0 @@
-array = list(map(int, input("Enter array elements separated by space: ").split()))
-element=int(input("Enter the element to be inserted: "))
-array.append(element)
-print("Array after insertion: ", array)
