@@ -3,5 +3,5 @@ array=list(set(array))
 if len(array) < 2:
   print("Second largest doesn't exist.")
 else:
-  array.sort()  # Sort the array
+  array.sort()  
   print("Second largest element is:", array[-2])
